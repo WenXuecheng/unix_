@@ -56,6 +56,7 @@ clean:
 	-rm -f *.o
 #加 “-” 即使命令出错也继续运行
 	-rm -f app
+	-rm -f a.out
 	
 test:
 	@echo "clean done!"

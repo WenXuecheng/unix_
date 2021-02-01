@@ -57,6 +57,7 @@ clean:
 #加 “-” 即使命令出错也继续运行
 	-rm -f app
 	-rm -f a.out 
+	-rm -f .*.swp
 test:
 	@echo "clean done!"
 #加上@ 不显示命令本身
