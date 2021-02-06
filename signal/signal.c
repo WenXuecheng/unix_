@@ -3,7 +3,7 @@
 #include <unistd.h>
 void do_sig(int n)
 {
-        printf("hello\n");
+        printf("hello %d\n",n);
 }
 int main(void)
 {
